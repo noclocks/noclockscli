@@ -1,0 +1,24 @@
+site_name: No Clocks CLI Documentation
+site_author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+copyright: "Copyright &copy; 2024 No Clocks, LLC"
+site_url: https://docs.noclocks.dev/noclockscli
+repo_url: https://github.com/noclocks/noclockscli
+repo_name: noclocks/noclockscli
+nav:
+  - index.md
+  - about.md
+  - commands.md
+  - usage.md
+  - roadmap.md
+  - Reference:
+      - reference/index.md
+      - reference/hello.md
+      - reference/add.md
+
+theme:
+  name: "material"
+markdown_extensions:
+  - toc:
+      permalink: "#"
+extra_css:
+  - "stylesheets/extra.css"
